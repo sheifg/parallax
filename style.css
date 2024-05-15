@@ -8,12 +8,11 @@ body {
   overflow-x: hidden;
 }
 
-/* Section-1 */
-
-.section-1 {
+.section-1, 
+.section-3, 
+.section-5 {
   width: 100%;
   height: 100vh;
-  background-image: url(./img/bg.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,7 +24,13 @@ body {
   opacity: 0.7;
 }
 
-.first_border {
+.section-1 {
+  background-image: url(./img/bg.jpg);
+}
+
+.first_border,
+.third_border,
+.fifth_border {
   background-color: #010101;
   color: white;
   height: 8rem;
@@ -38,15 +43,16 @@ body {
   outline-offset: 1.2rem;
 }
 
-.first_title {
+.first_title,
+.thrid_title,
+.fifth_title {
   font-size: 3.5rem;
   letter-spacing: 0.5rem;
   font-weight: 500;
 }
 
-/* Full-stack */
-
-.full-stack {
+.full-stack,
+.data {
   width: 100%;
   background-color: #f1f1f1;
   color: #666;
@@ -55,28 +61,29 @@ body {
   font-family: sans-serif;
 }
 
-.full-stack_title {
+.full-stack_title,
+.data_title {
   font-size: 1.6rem;
   margin: 1.5rem;
   font-weight: bold;
 }
 
-.full-stack_p {
+.full-stack_p,
+.data_p {
   font-size: 1.2rem;
   margin: 1rem;
   line-height: 2rem;
 }
 
-.full-stack_p span {
+.full-stack_p span,
+.data_p span {
   font-weight: bolder;
 }
 
-/* Section-2 */
-
-.section-2 {
+.section-2,
+.section-4 {
   width: 100%;
   height: 80vh;
-  background-image: url(./img/bg2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -85,6 +92,10 @@ body {
   justify-content: center;
   align-items: center;
   opacity: 0.7;
+}
+
+.section-2 {
+  background-image: url(./img/bg2.jpg);
 }
 
 .second {
@@ -97,9 +108,8 @@ body {
   width: 30%;
 }
 
-/* AWS */
-
-.AWS {
+.AWS,
+.why {
   width: 100%;
   background-color: #282e34;
   color: #ddd;
@@ -108,100 +118,31 @@ body {
   font-family: sans-serif;
 }
 
-.AWS_title {
+.AWS_title,
+.why_title {
   font-size: 1.6rem;
   margin: 1.5rem;
   font-weight: bold;
 }
 
-.AWS_p {
+.AWS_p,
+.why_p {
   font-size: 1.2rem;
   margin: 1rem;
   line-height: 2rem;
 }
 
-.AWS_p span {
+.AWS_p span,
+.why_p span {
   font-weight: bolder;
 }
-
-/* Section-3 */
 
 .section-3 {
-  width: 100%;
-  height: 80vh;
   background-image: url(./img/bg3.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  opacity: 0.7;
 }
-
-.third_border {
-  background-color: #010101;
-  color: white;
-  height: 5.2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 0.8rem;
-  border-radius: 1rem 0 1rem 0;
-  outline: 0.45rem purple inset;
-  outline-offset: 0.2rem;
-}
-
-.third_title {
-  font-size: 3.5rem;
-  letter-spacing: 0.5rem;
-  font-weight: 500;
-}
-
-/* Data */
-
-.data {
-  width: 100%;
-  background-color: #f1f1f1;
-  color: #666;
-  text-align: center;
-  padding: 3rem 5rem;
-  font-family: sans-serif;
-}
-
-.data_title {
-  font-size: 1.6rem;
-  margin: 1.5rem;
-  font-weight: bold;
-}
-
-.data_p {
-  font-size: 1.2rem;
-  margin: 1rem;
-  line-height: 2rem;
-}
-
-.data_p span {
-  font-weight: bolder;
-}
-
-/* Section-4 */
 
 .section-4 {
-  width: 100%;
-  height: 80vh;
   background-image: url(./img/bg4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  opacity: 0.7;
 }
 
 .forth_border {
@@ -223,65 +164,7 @@ body {
   font-weight: 500;
 }
 
-/* Why */
-
-.why {
-  width: 100%;
-  background-color: #282e34;
-  color: #ddd;
-  text-align: center;
-  padding: 3rem 5rem;
-  font-family: sans-serif;
-}
-
-.why_title {
-  font-size: 1.6rem;
-  margin: 1.5rem;
-  font-weight: bold;
-}
-
-.why_p {
-  font-size: 1.2rem;
-  margin: 1rem;
-  line-height: 2rem;
-}
-
-.why_p span {
-  font-weight: bolder;
-}
-
-/* Section-5 */
-
 .section-5 {
-  width: 100%;
-  height: 100vh;
   background-image: url(./img/bg.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: sans-serif;
-  opacity: 0.7;
 }
 
-.fifth_border {
-  background-color: #010101;
-  color: white;
-  height: 8rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2rem;
-  border-radius: 2rem 0 2rem 0;
-  outline: 0.6rem purple inset;
-  outline-offset: 1.2rem;
-}
-
-.fifth_title {
-  font-size: 3.5rem;
-  letter-spacing: 0.5rem;
-  font-weight: 500;
-}
